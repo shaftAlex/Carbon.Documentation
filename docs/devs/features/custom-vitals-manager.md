@@ -183,9 +183,9 @@ Using a remaining time of 1 day, 3 hours, 5 minutes, and 7 seconds
 | `{timeleft:m\\:ss}` | `5:07` |
 | `{timeleft:ss}` | `07` |
 | `{timeleft:s}` | `7` |
-| `{timeleft:m\\m\\ ss\\s}` | `5m 7s`|
-| `{timeleft:h\\h\\ mm\\m\\ ss\\s}` | `3h 5m 7s` |
-| `{timeleft:d\\d\\ hh\\h\\ mm\\m\\ ss\\s}` | `1d 3h 5m 7s` |
+| `{timeleft:m\\m\\ s\\s}` | `5m 7s`|
+| `{timeleft:h\\h\\ m\\m\\ s\\s}` | `3h 5m 7s` |
+| `{timeleft:d\\d\\ h\\h\\ m\\m\\ s\\s}` | `1d 3h 5m 7s` |
 
 :::info
 Placing tokens directly adjacent without an escaped separator (e.g., `ms`, `mms`) can cause unpredictable display behavior.
